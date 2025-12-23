@@ -23,6 +23,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "The Jennyz Experiment",
   description: "A UI/UX experiment",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

@@ -1,0 +1,98 @@
+.brutalist-theme {
+  --background: #ffffff;
+  --foreground: #4a4848;
+  --foreground-rgb: 0, 0, 0;
+  --card: #ffffff;
+  --card-foreground: #4a4848;
+  --popover: #ffffff;
+  --popover-foreground: #4a4848;
+  --primary: #5252f9;
+  --primary-foreground: #ffffff;
+  --primary-50: #e6e6ff;
+  --secondary: #f0f0f0;
+  --secondary-foreground: #4a4848;
+  --muted: #f0f0f0;
+  --muted-foreground: #4a4848;
+  --muted-50: #fafafa;
+  --accent: #ffff00;
+  --accent-foreground: #4a4848;
+  --destructive: #cc0808;
+  --warning: #ffcc00;
+  --warning-foreground: #4a4848;
+  --destructive-foreground: #ffffff;
+  --border: #4a4848;
+  --input: #4a4848;
+  --ring: #4a4848;
+  --radius: 0px;
+
+  /* rainbow colors */
+  --color-rainbow-1: 0 100% 50%;
+  --color-rainbow-2: 60 100% 50%;
+  --color-rainbow-3: 120 100% 50%;
+  --color-rainbow-4: 240 100% 50%;
+  --color-rainbow-5: 300 100% 50%;
+  
+  --font-sans: "Courier New", Courier, monospace;
+  --font-display: "Courier New", Courier, monospace;
+  
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  .brutalist-theme {
+    --background: #000000;
+    --foreground: #ffffff;
+    --card: #000000;
+    --card-foreground: #ffffff;
+    --popover: #000000;
+    --popover-foreground: #ffffff;
+    --primary: #5252f9;
+    --primary-foreground: #ffffff;
+    --primary-50: #000033;
+    --secondary: #1a1a1a;
+    --secondary-foreground: #ffffff;
+    --muted: #1a1a1a;
+    --muted-50: #0d0d0d;
+    --muted-foreground: #cccccc;
+    --accent: #ffff00;
+    --accent-foreground: #000000;
+    --destructive: #cc0808;
+    --warning: #cda403;
+    --warning-foreground: #000000;
+    --destructive-foreground: #ffffff;
+    --border: #ffffff;
+    --input: #ffffff;
+    --ring: #ffffff;
+  }
+}
+
+/* Brutalist specific overrides scoped to the theme */
+.brutalist-theme .border, 
+.brutalist-theme .border-b, 
+.brutalist-theme .border-t, 
+.brutalist-theme .border-l, 
+.brutalist-theme .border-r {
+  border-width: 2px !important;
+}
+
+.brutalist-theme .rounded-md, 
+.brutalist-theme .rounded-xl, 
+.brutalist-theme .rounded-full, 
+.brutalist-theme .rounded-lg, 
+.brutalist-theme .rounded-sm, 
+.brutalist-theme .rounded-tl-2xl {
+  border-radius: 0px !important;
+}
+
+.brutalist-theme .shadow-md, 
+.brutalist-theme .shadow-sm, 
+.brutalist-theme .shadow {
+  box-shadow: 4px 4px 0px 0px var(--border) !important;
+}
+
+.brutalist-theme button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px var(--border) !important;
+}
