@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export default function Home() {
   return (
     <div className="flex min-h-screen justify-center font-sans">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-start pt-28 px-14">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-start pt-20 px-14">
         <div className="flex flex-col gap-8">
           <h1 className="font-display text-5xl font-extrabold tracking-tight text-foreground sm:text-6xl">
             The Jennyz Experiment
