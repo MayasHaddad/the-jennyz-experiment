@@ -11,6 +11,8 @@
   --accent-blue: #359faf;
   --accent-green: #D1FAE5;
   --accent-purple: #E9D8FD;
+  --accent-yellow: #F59E0B;
+  --accent-red: #E02424;
   --accent-text: #4B5563;
 }
 
@@ -42,6 +44,8 @@
   --color-accent-blue: var(--accent-blue);
   --color-accent-green: var(--accent-green);
   --color-accent-purple: var(--accent-purple);
+  --color-accent-yellow: var(--accent-yellow);
+  --color-accent-red: var(--accent-red);
   --font-sans: var(--font-open-sans), var(--font-inter);
   --font-display: var(--font-lato), sans-serif;
 }
@@ -54,9 +58,11 @@
 
     /* Muted darker accents for dark mode */
     --accent-pink: #682c44;
-    --accent-blue: #2a7a88;
+    --accent-blue: #38bdf8;
     --accent-green: #1a3826;
-    --accent-purple: #4a3663;
+    --accent-purple: #c084fc;
+    --accent-yellow: #FDE047;
+    --accent-red: #FF4D4D;
     --accent-text: #9CA3AF;
   }
 }

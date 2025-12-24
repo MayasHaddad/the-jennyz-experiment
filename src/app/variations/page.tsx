@@ -44,7 +44,7 @@ export default function VariationsPage() {
           className="group relative inline-block font-medium text-foreground"
         >
           <span>The Jennyz Experiment</span>
-          <span className="absolute bottom-1 left-0 -z-10 h-1 w-full -rotate-1 rounded-sm bg-accent-blue/60 transition-all duration-300 ease-in-out group-hover:-bottom-1 group-hover:-left-1 group-hover:h-[120%] group-hover:w-[105%] group-hover:-rotate-2 group-hover:scale-105"></span>
+          <span className="absolute bottom-1 left-0 -z-10 h-1 w-full -rotate-1 rounded-sm bg-accent-red/60 transition-all duration-300 ease-in-out group-hover:-bottom-1 group-hover:-left-1 group-hover:h-[120%] group-hover:w-[105%] group-hover:-rotate-2 group-hover:scale-105"></span>
         </Link>
         <h1 className="font-display text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
           Select a Variation
