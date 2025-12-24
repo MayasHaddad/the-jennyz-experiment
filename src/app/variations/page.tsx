@@ -44,7 +44,31 @@ export default function VariationsPage() {
           className="group relative inline-block font-medium text-foreground"
         >
           <span>The Jennyz Experiment</span>
-          <span className="absolute bottom-1 left-0 -z-10 h-1 w-full -rotate-1 rounded-sm bg-accent-yellow/80 transition-all duration-300 ease-in-out group-hover:-bottom-1 group-hover:-left-1 group-hover:h-[120%] group-hover:w-[105%] group-hover:-rotate-2 group-hover:scale-105"></span>
+          <span className="absolute bottom-0 left-0 -z-10 flex h-full w-full items-end justify-center">
+            <svg
+              viewBox="0 0 100 20"
+              className="h-[60%] w-[110%] -rotate-2 text-accent-yellow/70 transition-all duration-300 group-hover:h-[80%] group-hover:w-[120%] group-hover:-rotate-1 group-hover:scale-110"
+              preserveAspectRatio="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <filter id="paint-flow-variations">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur" />
+                  <feColorMatrix
+                    in="blur"
+                    mode="matrix"
+                    values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 16 -8"
+                    result="goo"
+                  />
+                  <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                </filter>
+              </defs>
+              <g filter="url(#paint-flow-variations)" fill="currentColor">
+                <path d="M5,10 Q50,5 95,12" stroke="currentColor" strokeWidth="12" strokeLinecap="round" />
+                <path d="M10,15 Q50,18 90,12" stroke="currentColor" strokeWidth="8" strokeLinecap="round" />
+              </g>
+            </svg>
+          </span>
         </Link>
         <h1 className="font-display text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
           Select a Variation
