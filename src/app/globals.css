@@ -9,7 +9,7 @@
   /* Pastel accents - slightly more vibrant */
   --accent-pink: #FFD6E0;
   --accent-blue: #359faf;
-  --accent-green: #D1FAE5;
+  --accent-green: #10d268;
   --accent-purple: #E9D8FD;
   --accent-yellow: #F59E0B;
   --accent-red: #E02424;
@@ -59,10 +59,10 @@
     /* Muted darker accents for dark mode */
     --accent-pink: #682c44;
     --accent-blue: #38bdf8;
-    --accent-green: #1a3826;
+    --accent-green: #57F287;
     --accent-purple: #c084fc;
-    --accent-yellow: #FDE047;
-    --accent-red: #FF4D4D;
+    --accent-yellow: #ffcc00;
+    --accent-red: #ff0000;
     --accent-text: #9CA3AF;
   }
 }

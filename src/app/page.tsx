@@ -23,7 +23,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <span className="relative z-10 px-0.5">jennyz.co</span>
-                <span className="absolute bottom-1 left-0 -z-10 h-1 w-full -rotate-2 rounded-sm bg-accent-red/60 transition-all duration-300 ease-in-out group-hover:-bottom-1 group-hover:-left-1 group-hover:h-[120%] group-hover:w-[105%] group-hover:-rotate-3 group-hover:scale-105"></span>
+                <span className="absolute bottom-1 left-0 -z-10 h-1 w-full -rotate-2 rounded-sm bg-accent-yellow/80 transition-all duration-300 ease-in-out group-hover:-bottom-1 group-hover:-left-1 group-hover:h-[120%] group-hover:w-[105%] group-hover:-rotate-3 group-hover:scale-105"></span>
               </a>
               {", "}a real world product which is used by real people.
             </p>
@@ -46,7 +46,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <span>{"submit a PR"}</span>
-                <span className="absolute bottom-1 left-0 -z-10 h-1 w-full -rotate-2 rounded-sm bg-accent-red/60 transition-all duration-300 ease-in-out group-hover:-bottom-1 group-hover:-left-1 group-hover:h-[120%] group-hover:w-[105%] group-hover:-rotate-3 group-hover:scale-105"></span>
+                <span className="absolute bottom-1 left-0 -z-10 h-1 w-full -rotate-2 rounded-sm bg-accent-yellow/80 transition-all duration-300 ease-in-out group-hover:-bottom-1 group-hover:-left-1 group-hover:h-[120%] group-hover:w-[105%] group-hover:-rotate-3 group-hover:scale-105"></span>
               </a>
               <span>{" to add a new variation if you feel inspired!"}</span>
             </p>
@@ -62,7 +62,7 @@ export default function Home() {
                 Next
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </span>
-              <span className="absolute -bottom-1 -left-1 -z-10 h-[120%] w-[105%] -rotate-3 scale-105 rounded-sm bg-accent-red/60"></span>
+              <span className="absolute -bottom-1 -left-1 -z-10 h-[120%] w-[105%] -rotate-3 scale-105 rounded-sm bg-accent-yellow/80"></span>
             </Link>
           </div>
         </div>
