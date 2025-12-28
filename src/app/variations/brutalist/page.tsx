@@ -223,7 +223,7 @@ export default function BrutalistPage() {
         </div>
 
         {/* Breadcrumb / page indicator */}
-        <div className="flex items-center gap-3 text-muted-foreground text-sm">
+        <div className="hidden md:flex items-center gap-3 text-muted-foreground text-sm">
           <PanelLeft className="h-5 w-5 cursor-pointer hover:text-foreground" />
           <span className="text-muted-foreground/40">|</span>
           <span>Orders</span>
@@ -314,7 +314,7 @@ export default function BrutalistPage() {
         </aside>
 
         {/* Main Content - with rounded top-left corner */}
-        <main className="flex-1 overflow-y-auto bg-background shadow-md rounded-tl-2xl">
+        <main className="flex-1 overflow-y-auto bg-background shadow-md md:rounded-tl-2xl">
           <header className="flex justify-between items-center mb-8 sticky top-0 bg-background z-10 py-4 pt-8 px-4 -mt-4">
             <div className="flex items-center gap-4">
               <h1 className="text-4xl font-bold tracking-tight text-foreground">

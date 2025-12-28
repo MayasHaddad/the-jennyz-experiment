@@ -164,7 +164,7 @@ export default function Apple2026Page() {
           <ChevronDown className="h-3 w-3 text-secondary ml-1" />
         </div>
 
-        <div className="flex items-center gap-3 text-secondary text-sm font-medium">
+        <div className="hidden md:flex items-center gap-3 text-secondary text-sm font-medium">
           <PanelLeft className="h-5 w-5 cursor-pointer hover:text-primary transition-colors" />
           <span className="opacity-30">|</span>
           <span>Orders</span>
@@ -218,7 +218,7 @@ export default function Apple2026Page() {
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 overflow-y-auto rounded-tl-3xl shadow-2xl glass-panel border-r-0 border-b-0 mt-0 ml-0 relative">
+        <main className="flex-1 overflow-y-auto md:rounded-tl-3xl shadow-2xl glass-panel border-r-0 border-b-0 mt-0 ml-0 relative">
            {/* Sticky Header inside Main Content */}
            <div className="sticky top-0 z-10 px-8 py-6 flex justify-between items-center border-t-0 border-l-0 border-r-0">
             <div className="flex items-center gap-4">
